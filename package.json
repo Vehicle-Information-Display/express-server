@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "resource app backend",
+  "description": "Vehicle Dashboard Interface Project express-based backend data collection server",
   "main": "index.js",
   "dependencies": {
     "connect": "^3.7.0",
@@ -10,7 +10,8 @@
     "crypto": "^1.0.1",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
-    "node-datetime": "^2.1.2"
+    "node-datetime": "^2.1.2",
+    "uuid": "^8.3.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -19,16 +20,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Apro123/ResourceAppBackend.git"
+    "url": "git+https://github.com/Vehicle-Information-Display/express-server.git"
   },
   "keywords": [
     "resource",
     "app"
   ],
-  "author": "Armaan Kapoor and Solomon Denning",
+  "author": "Adam Weingram, Armaan Kapoor and Solomon Denning",
   "license": "None",
   "bugs": {
-    "url": "https://github.com/Apro123/ResourceAppBackend/issues"
+    "url": "hhttps://github.com/Vehicle-Information-Display/express-server/issues"
   },
-  "homepage": "https://github.com/Apro123/ResourceAppBackend#readme"
+  "homepage": "https://github.com/Vehicle-Information-Display/express-server"
 }
