@@ -23,7 +23,7 @@ COPY . .
 RUN cat schema.sql | sqlite3 datacollection.db
 
 # Networking Setup
-EXPOSE 8080
+EXPOSE 3000
 ENV HOST=0.0.0.0
 
 # Start Server
