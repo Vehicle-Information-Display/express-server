@@ -34,10 +34,10 @@ var db = new sqlite3.Database('rapp.db');
 
 
 app.get("/", function(req, res) {
-  res.send({
-    "status": "success",
-    "data": "Hello world!"
-  });
+    res.send({
+        "status": "success",
+        "data": "Hello world!"
+    });
 });
 
 
