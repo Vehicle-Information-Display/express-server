@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Vehicle Dashboard Interface Project express-based backend data collection server",
   "engine": {
-    "node": "12.18.3"
+    "node": "14.x"
   },
   "main": "index.js",
   "dependencies": {
