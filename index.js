@@ -91,6 +91,11 @@ app.get("/", (req, res) => {
     });
 });
 
+app.get("/download", (req, res) => {
+    // Send the database
+    res.download('./datacollection.db');
+});
+
 // Handle POST requests
 app.post("/", async (req, res) => {
     // Figure out what type of request this is
